@@ -846,7 +846,7 @@ section,
   line-height: 1.1;
   letter-spacing: -1px;
   margin: 0;
-  color: #ffd700;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
@@ -1323,14 +1323,14 @@ section,
   padding: 40px 40px 40px 40px;
   margin-bottom: 30px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
-  background-color: #ffd700;
+  background-color: #161616;
   transition: all 0.3s ease;
   border-radius: 8px;
 }
 
 .services .service-card .service-icon {
   margin-bottom: 25px;
-  background-color: #059652;
+  background-color: #ffd700;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1341,7 +1341,7 @@ section,
 
 .services .service-card .service-icon i {
   font-size: 32px;
-  color: #ffd700;
+  color: #fff;
   transition: all 0.3s ease;
 }
 
@@ -1352,7 +1352,7 @@ section,
 }
 
 .services .service-card h3 a {
-  color: #059652;
+  color: #ffd700;
   transition: color 0.3s ease;
 }
 
@@ -1365,7 +1365,7 @@ section,
 }
 
 .services .service-card p {
-  color: #242424;
+  color: #fff;
   transition: color 0.3s ease;
   margin-bottom: 0;
 }
