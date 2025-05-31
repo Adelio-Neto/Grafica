@@ -31,8 +31,8 @@
     0.8
   ); /* The default color of the main navmenu links */
   --nav-hover-color: #ffd700; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #242424; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #242424; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-mobile-background-color: #161616; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #161616; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: rgba(
     255,
     255,
@@ -45,12 +45,12 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #242424;
-  --surface-color: #242424;
+  --background-color: #161616;
+  --surface-color: #161616;
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #161616;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
@@ -466,7 +466,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: #242424;
+  background-color: #161616;
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -1087,7 +1087,7 @@ section,
   font-size: 2.2rem;
   margin-bottom: 1.25rem;
   font-weight: 700;
-  color: #161616;
+  color: #242424;
 }
 
 @media (max-width: 768px) {
@@ -1324,7 +1324,7 @@ section,
   padding: 40px 40px 40px 40px;
   margin-bottom: 30px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
-  background-color: #242424;
+  background-color: #161616;
   transition: all 0.3s ease;
   border-radius: 8px;
 }
@@ -2206,7 +2206,7 @@ section,
 
 .team .team-member {
   position: relative;
-  background-color: #242424;
+  background-color: #161616;
   border: 1px solid color-mix(in srgb, #ffd700, transparent 0%);
   border-radius: 8px;
   transition: 0.3s;
@@ -2518,7 +2518,7 @@ section,
 }
 
 .faq .faq-container .faq-item {
-  background-color: #242424;
+  background-color: #161616;
   position: relative;
   padding: 20px;
   margin-bottom: 15px;
@@ -2597,7 +2597,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .contact-info-box {
-  background-color: #242424;
+  background-color: #161616;
   border-radius: 10px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
   padding: 25px;
@@ -2668,7 +2668,7 @@ section,
 }
 
 .contact .contact-form-wrapper {
-  background-color: #242424;
+  background-color: #161616;
   border-radius: 12px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
   padding: 40px;
