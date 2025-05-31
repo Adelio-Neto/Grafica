@@ -18,7 +18,7 @@
   ); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #e0e9f2; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ffd700; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1b262c; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #161616; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -31,8 +31,8 @@
     0.8
   ); /* The default color of the main navmenu links */
   --nav-hover-color: #ffd700; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #29343a; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #29343a; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-mobile-background-color: #242424; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #242424; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: rgba(
     255,
     255,
@@ -45,8 +45,8 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #0d1d26;
-  --surface-color: #16262f;
+  --background-color: #242424;
+  --surface-color: #242424;
 }
 
 .dark-background {
@@ -195,7 +195,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #059652;
 }
 
 @media (max-width: 1200px) {
@@ -894,9 +894,9 @@ section,
 .hero .cta-button .btn {
   display: inline-flex;
   align-items: center;
-  background-color: transparent;
+  background-color: #ffd700;
   border: 1px solid #ffd700;
-  color: #ffd700;
+  color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
   font-size: 0.9rem;
@@ -1149,8 +1149,8 @@ section,
 }
 
 .about .about-content .btn-primary:hover {
-  background-color: color-mix(in srgb, var(--accent-color), black 10%);
-  border-color: color-mix(in srgb, var(--accent-color), black 10%);
+  background-color: #059652;
+  border-color: #059652;
 }
 
 .about .testimonial-section {
@@ -1178,6 +1178,7 @@ section,
   border-radius: 50%;
   background-color: var(--surface-color);
   border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1625,7 +1626,7 @@ section,
 .call-to-action {
   padding-top: 80px;
   position: relative;
-  background-color: #059652;
+  background-color: #ffd700;
   border-radius: 1rem;
   overflow: hidden;
   padding-bottom: 80px;
@@ -1686,24 +1687,25 @@ section,
 
 .call-to-action .cta-buttons .btn.btn-primary {
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  border-color: #fff;
   color: var(--contrast-color);
 }
 
 .call-to-action .cta-buttons .btn.btn-primary:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background-color: #fff;
   border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
   transform: translateY(-2px);
+  color: #ffd700;
 }
 
 .call-to-action .cta-buttons .btn.btn-outline {
-  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  background-color: #fff;
   color: var(--accent-color);
 }
 
 .call-to-action .cta-buttons .btn.btn-outline:hover {
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  border-color: #fff;
   color: var(--contrast-color);
   transform: translateY(-2px);
 }
@@ -2765,21 +2767,15 @@ section,
   letter-spacing: 1px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  box-shadow: 0 5px 15px
-    color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .contact .contact-form-wrapper .btn-submit:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background-color: #059652;
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px
-    color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
 .contact .contact-form-wrapper .btn-submit:active {
   transform: translateY(0);
-  box-shadow: 0 3px 10px
-    color-mix(in srgb, var(--accent-color), transparent 70%);
 }
 
 .contact .contact-form-wrapper .loading,
