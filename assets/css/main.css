@@ -1626,7 +1626,7 @@ section,
 .call-to-action {
   padding-top: 80px;
   position: relative;
-  background-color: #ffd700;
+  background-color: #059652;
   border-radius: 1rem;
   overflow: hidden;
   padding-bottom: 80px;
@@ -1687,13 +1687,13 @@ section,
 
 .call-to-action .cta-buttons .btn.btn-primary {
   background-color: var(--accent-color);
-  border-color: #fff;
+  border-color: #059652;
   color: var(--contrast-color);
 }
 
 .call-to-action .cta-buttons .btn.btn-primary:hover {
   background-color: #fff;
-  border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+
   transform: translateY(-2px);
   color: #ffd700;
 }
