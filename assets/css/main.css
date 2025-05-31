@@ -1520,7 +1520,7 @@ section,
   flex-shrink: 0;
   width: 80px;
   height: 80px;
-  background-color: #161616;
+  background-color: #ffd700;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1534,7 +1534,7 @@ section,
 
 .steps .step-icon i {
   font-size: 32px;
-  color: var(--accent-color);
+  color: #fff;
   transition: transform 0.3s ease-in-out;
 }
 
