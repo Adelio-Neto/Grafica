@@ -570,11 +570,12 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #ffd700;
+  background-color: #242424;
 }
 
 .footer .copyright p {
   margin-bottom: 0;
+  color: #ffd700;
 }
 
 .footer .credits {
@@ -1732,20 +1733,20 @@ section,
 
 .call-to-action .cta-buttons .btn.btn-primary {
   background-color: var(--accent-color);
-  border-color: #fff;
-  color: var(--contrast-color);
+  border-color: #161616;
+  color: #161616;
 }
 
 .call-to-action .cta-buttons .btn.btn-primary:hover {
-  background-color: #fff;
+  background-color: #000;
 
   transform: translateY(-2px);
   color: #ffd700;
 }
 
 .call-to-action .cta-buttons .btn.btn-outline {
-  background-color: #fff;
-  color: var(--accent-color);
+  background-color: #000;
+  color: #fff;
 }
 
 .call-to-action .cta-buttons .btn.btn-outline:hover {
@@ -3134,7 +3135,7 @@ section,
   font-weight: 600;
   font-size: 1rem;
   color: #fff;
-  background-color: #ffd700;
+  background-color: #161616;
   border-radius: 8px !important;
   box-shadow: none;
 }
@@ -3185,6 +3186,7 @@ section,
   .accordion-button
   i {
   font-size: 1.1rem;
+  color: #ffd700;
 }
 
 .portfolio-details
@@ -4077,4 +4079,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.swiper-wrapper .swiper-slide .single-pf img {
+  height: 50px;
 }
