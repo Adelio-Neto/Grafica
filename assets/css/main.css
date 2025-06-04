@@ -486,6 +486,8 @@ h6 {
 .footer .footer-about .logo img {
   max-height: 40px;
   margin-right: 6px;
+  width: 120px;
+  height: 600px;
 }
 
 .footer .footer-about .logo span {
@@ -1189,12 +1191,13 @@ section,
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
   font-weight: 500;
-  color: var(--contrast-color);
+  color: #242424;
 }
 
 .about .about-content .btn-primary:hover {
   background-color: #059652;
   border-color: #059652;
+  color: #fff;
 }
 
 .about .testimonial-section {
@@ -2007,8 +2010,8 @@ section,
   font-weight: 500;
   padding: 12px 25px;
   cursor: pointer;
-  background: var(--surface-color);
-  color: var(--default-color);
+  background: #ffd700;
+  color: #000;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -2022,9 +2025,9 @@ section,
 }
 
 .portfolio .portfolio-filters li:hover {
-  color: var(--accent-color);
+  color: #fff;
   transform: translateY(-2px);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  background: #059652;
 }
 
 .portfolio .portfolio-filters li:hover i {
@@ -2032,8 +2035,8 @@ section,
 }
 
 .portfolio .portfolio-filters li.filter-active {
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #059652;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -2806,7 +2809,7 @@ section,
 .contact .contact-form-wrapper .btn-submit {
   background-color: var(--accent-color);
   border: none;
-  color: var(--contrast-color);
+  color: #000;
   padding: 12px 30px;
   font-size: 16px;
   font-weight: 600;
@@ -2817,6 +2820,7 @@ section,
 
 .contact .contact-form-wrapper .btn-submit:hover {
   background-color: #059652;
+  color: #fff;
   transform: translateY(-3px);
 }
 
