@@ -3022,7 +3022,7 @@ section,
 }
 
 .portfolio-details .portfolio-details-media .tech-stack-badges span:hover {
-  background-color: color-mix(in srgb, var(--heading-color), transparent 70%);
+  background-color: #059652;
   transform: translateY(-2px);
 }
 
@@ -3286,6 +3286,7 @@ section,
   .cta-buttons
   .btn-view-project:hover {
   background-color: #059652;
+  color: #fff;
   transform: translateY(-3px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
