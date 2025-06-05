@@ -1108,12 +1108,14 @@ section,
   line-height: 1;
   display: block;
   margin-bottom: 5px;
+  color: #000;
 }
 
 .about .about-image .experience-badge .text {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -2010,8 +2012,8 @@ section,
   font-weight: 500;
   padding: 12px 25px;
   cursor: pointer;
-  background: #ffd700;
-  color: #000;
+  background: #000;
+  color: #fff;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -2035,8 +2037,8 @@ section,
 }
 
 .portfolio .portfolio-filters li.filter-active {
-  background: #059652;
-  color: #fff;
+  background: #ffd700;
+  color: #000;
 }
 
 @media (max-width: 768px) {
@@ -3273,7 +3275,7 @@ section,
 .portfolio-details .portfolio-details-content .cta-buttons .btn-view-project {
   padding: 12px 28px;
   background-color: var(--accent-color);
-  color: var(--contrast-color);
+  color: #242424;
   border-radius: 30px;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -4084,7 +4086,34 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Parceiro */
+.swiper-wrapper .swiper-slide {
+  width: 300px;
+  height: auto; /* altura automática para se adaptar ao conteúdo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.swiper-wrapper .swiper-slide .single-pf {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.swiper-wrapper .swiper-slide .single-pf:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
 
 .swiper-wrapper .swiper-slide .single-pf img {
-  height: 50px;
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
 }
